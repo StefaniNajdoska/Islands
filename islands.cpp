@@ -4,28 +4,6 @@
 #include <vector>
 
 using namespace std;
-/*
-The goal is to count and print the number of islands in the given map.
-The map consists of a 2 dimensional matrix of 1’s and 0’s,
-with 1’s representing land, and 0’s representing sea.
-Continues list of “1” is considered as one island.
-The correct answer in the example bellow is 4 islands.
-*/
-
-/*
-Please make the code clean and neat.
-take extra caution for :
-memory leaks
-problematic inputs
-*/
-
-/*
-The code should be short and simple,
-if you see many logical loops, ifs and conditions you are probably going in the wrong direction
-
-Try to break the problem into several sub-problems
-Feel free to use google but not your friends :)
-*/
 
 int island[12][10] = {
 	1, 1, 0, 0, 0, 0, 0, 0, 0, 0,
